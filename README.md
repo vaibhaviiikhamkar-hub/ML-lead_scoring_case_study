@@ -161,35 +161,6 @@ Lead_Scoring_Case_Study/
 ├── README.md
 └── requirements.txt
 
-🚀 How to Run the Project
-
-Clone the repository
-
-Install required libraries:
-
-pip install -r requirements.txt
-
-
-Open Jupyter Notebook:
-
-jupyter notebook
-
-
-Run all cells
-
-🔮 Future Improvements
-
-Try advanced models:
-
-Random Forest
-
-XGBoost
-
-Hyperparameter tuning
-
-Model deployment using Streamlit
-
-Real-time lead scoring system
 
 👩‍💻 Author
 
