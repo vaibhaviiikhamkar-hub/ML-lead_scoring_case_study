@@ -1,12 +1,12 @@
 # ML-lead_scoring_case_study
-📊 Lead Scoring Case Study
-📌 Project Overview
+Lead Scoring Case Study
+ Project Overview
 
 This project focuses on building a Lead Scoring Model to identify potential customers who are most likely to convert into paying customers.
 
 The objective is to help the sales team prioritize high-quality leads and improve overall conversion rates using Machine Learning techniques.
 
-🎯 Business Objective
+ Business Objective
 
 An education company wants to:
 
@@ -20,7 +20,7 @@ Reduce time spent on low-quality leads
 
 This project builds a Logistic Regression Model to assign a probability score to each lead.
 
-📁 Dataset Description
+ Dataset Description
 
 The dataset contains information such as:
 
@@ -44,8 +44,8 @@ City
 
 Converted (Target Variable: 0 = No, 1 = Yes)
 
-🛠 Project Workflow
-1️⃣ Data Understanding
+ Project Workflow
+1️ Data Understanding
 
 Loaded dataset
 
@@ -53,7 +53,7 @@ Checked shape, columns, and missing values
 
 Identified target variable (Converted)
 
-2️⃣ Data Cleaning
+2️ Data Cleaning
 
 Removed columns with high missing values
 
@@ -63,7 +63,7 @@ Converted categorical variables
 
 Dropped irrelevant columns (e.g., IDs)
 
-3️⃣ Exploratory Data Analysis (EDA)
+3️ Exploratory Data Analysis (EDA)
 
 Checked distribution of variables
 
@@ -73,7 +73,7 @@ Identified important predictors
 
 Checked class imbalance
 
-4️⃣ Feature Engineering
+4️ Feature Engineering
 
 Dummy variable creation
 
@@ -81,7 +81,7 @@ Handling multicollinearity
 
 Scaling numerical variables
 
-5️⃣ Model Building
+5️ Model Building
 
 Train-Test Split
 
@@ -93,7 +93,7 @@ p-values
 
 VIF (Variance Inflation Factor)
 
-6️⃣ Model Evaluation
+6️ Model Evaluation
 
 Confusion Matrix
 
@@ -111,7 +111,7 @@ AUC Score
 
 Cutoff optimization
 
-📈 Model Performance
+ Model Performance
 
 Achieved good balance between precision and recall
 
@@ -119,7 +119,7 @@ Optimized cutoff to improve business performance
 
 Model effectively identifies high-converting leads
 
-📊 Key Insights
+ Key Insights
 
 Time spent on website strongly impacts conversion
 
@@ -129,7 +129,7 @@ Occupation and last activity significantly affect conversion
 
 Proper cutoff selection improves business decision-making
 
-🧠 Business Recommendation
+ Business Recommendation
 
 Focus marketing efforts on high-probability leads
 
@@ -137,7 +137,7 @@ Use model score to prioritize calling strategy
 
 Reduce cost spent on low conversion leads
 
-💻 Technologies Used
+ Technologies Used
 
 Python
 
@@ -153,16 +153,9 @@ Scikit-learn
 
 Statsmodels
 
-📂 Project Structure
-Lead_Scoring_Case_Study/
-│
-├── lead-scoring-case-study.ipynb
-├── Leads.csv
-├── README.md
-└── requirements.txt
 
 
-👩‍💻 Author
+Author
 
 Vaibhavi Khamkar
 
